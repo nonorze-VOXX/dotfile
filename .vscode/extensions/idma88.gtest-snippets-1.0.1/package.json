@@ -1,0 +1,63 @@
+{
+	"name": "gtest-snippets",
+	"displayName": "GTest Snippets",
+	"description": "Google Test snippets",
+	"version": "1.0.1",
+	"publisher": "idma88",
+	"author": {
+		"name": "Dmitrii Ivanov"
+	},
+	"license": "MIT",
+	"homepage": "https://github.com/idma88/gtest-snippets/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/idma88/gtest-snippets"
+	},
+	"bugs": "https://github.com/idma88/gtest-snippets/issues",
+	"galleryBanner": {
+		"color": "#3b7dee",
+		"theme": "dark"
+	},
+	"engines": {
+		"vscode": "^1.68.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"keywords": [
+		"snippets",
+		"gtest",
+		"googletest"
+	],
+	"icon": "images/icon.png",
+	"contributes": {
+		"snippets": [
+			{
+				"language": "c",
+				"path": "./snippets.json"
+			},
+			{
+				"language": "cpp",
+				"path": "./snippets.json"
+			}
+		]
+	},
+	"scripts": {
+		"bundle": "vsce package",
+		"publish": "npm run bundle && vsce publish",
+		"clean": "node node_modules/rimraf/bin.js *.vsix"
+	},
+	"dependencies": {
+		"rimraf": "^3.0.2"
+	},
+	"__metadata": {
+		"id": "cf469cf5-3455-4384-853e-e2f6b37cb547",
+		"publisherId": "7b1e8908-48eb-4aad-8edd-ecd0e06eccdf",
+		"publisherDisplayName": "Dmitrii Ivanov",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1681484079868,
+		"preRelease": false
+	}
+}
