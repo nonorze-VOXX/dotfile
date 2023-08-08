@@ -39,7 +39,7 @@ set scrolloff=5
 set guifont:Cascadia\ Mono:h12
 
 "colorscheme monokai_pro
-colorscheme sonokai
+colorscheme gruvbox
 
 "let g:airline_section_b = '%{strftime("%c")}'
 "let g:airline_section_y = 'BN: %{bufnr("%")}'
