@@ -24,7 +24,7 @@ xdg-desktop-portal-hyprland
 dunst
 pipewire # for screenshareing
 wireplumber
-polkit-kde-agent #exec-once=/usr/lib/polkit-kde-authentication-agent-1
+polkit-kde # exec-once = /usr/lib/polkit-1/polkit-agent-helper-1
 
 ### not must have
 kdeconnect
