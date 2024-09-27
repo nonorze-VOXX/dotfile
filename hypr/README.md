@@ -17,8 +17,12 @@ xdg-desktop-protal-gtk
 gdm
 qt5-wayland
 qt6-wayland
-rofi # rofi -show drun # yay -S rofi-lbonn-wayland-git
+wofi # wofi --show drun 
 xdg-desktop-portal-hyprland
+
+hypridle
+hyprpaper
+hyprlock
 
 ### exec-once
 dunst
@@ -29,3 +33,4 @@ polkit-kde-agent #exec-once=/usr/lib/polkit-kde-authentication-agent-1
 ### not must have
 kdeconnect
 
+wl-mirror # for screen mirror
